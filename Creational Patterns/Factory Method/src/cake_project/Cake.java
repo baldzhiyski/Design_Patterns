@@ -1,7 +1,7 @@
 package cake_project;
 
 
-public abstract class Cake {
+public abstract class Cake implements  CakeInterface {
     public double diameter;
     public double price;
     public int pieces;
