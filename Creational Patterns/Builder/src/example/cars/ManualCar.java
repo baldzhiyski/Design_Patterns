@@ -1,9 +1,9 @@
-package cars;
+package example.cars;
 
-import components.Engine;
-import components.GPSNavigator;
-import components.Transmission;
-import components.TripComputer;
+import example.components.Engine;
+import example.components.GPSNavigator;
+import example.components.Transmission;
+import example.components.TripComputer;
 
 public class ManualCar {
     private final CarType carType;

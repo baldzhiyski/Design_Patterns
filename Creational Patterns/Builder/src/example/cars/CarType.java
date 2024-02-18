@@ -1,4 +1,4 @@
-package cars;
+package example.cars;
 
 public enum CarType {
     CITY_CAR, SPORTS_CAR, SUV

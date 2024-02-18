@@ -1,4 +1,4 @@
-package non_thread_safe_example;
+package example.non_thread_safe_example;
 
 public enum Messages {
     ;

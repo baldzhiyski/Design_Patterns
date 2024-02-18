@@ -1,10 +1,10 @@
-package builders;
+package example.builders;
 
-import cars.CarType;
-import components.Engine;
-import components.GPSNavigator;
-import components.Transmission;
-import components.TripComputer;
+import example.cars.CarType;
+import example.components.Engine;
+import example.components.GPSNavigator;
+import example.components.Transmission;
+import example.components.TripComputer;
 
 public interface Builder {
     void setCarType(CarType type);

@@ -1,4 +1,4 @@
-package components;
+package example.components;
 
 public class Engine {
     private final double volume;

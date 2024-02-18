@@ -1,4 +1,4 @@
-package thread_safe_example;
+package example.thread_safe_example;
 
 public class Singleton {
     private static volatile Singleton instance;

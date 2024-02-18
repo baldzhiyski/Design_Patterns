@@ -1,4 +1,4 @@
-package components;
+package example.components;
 
 public class GPSNavigator {
         private String route;

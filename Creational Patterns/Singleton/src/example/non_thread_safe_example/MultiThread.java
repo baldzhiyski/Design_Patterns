@@ -1,10 +1,9 @@
-package thread_safe_example;
+package example.non_thread_safe_example;
 
 public class MultiThread {
     public static void main(String[] args) {
-        System.out.println("If you see the same value, then singleton was reused " + "\n" +
-                "If you see different values, then 2 singletons were created " + "\n\n" +
-                "RESULT:" + "\n");
+        System.out.println(Messages.OUTPUT_MULTI_THREAD);
+        System.out.println(Messages.OUTPUT_SINGLE_THREAD);
         Thread threadFoo = new Thread(new ThreadFoo());
         Thread threadBar = new Thread(new ThreadBar());
         threadFoo.start();
@@ -14,7 +13,7 @@ public class MultiThread {
     static class ThreadFoo implements Runnable {
         @Override
         public void run() {
-            Singleton singleton = Singleton.getInstance("FOO",21);
+            Singleton singleton = Singleton.getInstance("FOO");
             System.out.println(singleton.value);
         }
     }
@@ -22,7 +21,7 @@ public class MultiThread {
     static class ThreadBar implements Runnable {
         @Override
         public void run() {
-            Singleton singleton = Singleton.getInstance("BAR",22);
+            Singleton singleton = Singleton.getInstance("BAR");
             System.out.println(singleton.value);
         }
     }

@@ -1,8 +1,10 @@
-import builders.CarBuilder;
-import builders.ManualBuilder;
-import cars.Car;
-import cars.ManualCar;
-import director.Director;
+package example;
+
+import example.builders.CarBuilder;
+import example.builders.ManualBuilder;
+import example.cars.Car;
+import example.cars.ManualCar;
+import example.director.Director;
 
 public class Main {
     public static void main(String[] args) {
@@ -15,7 +17,7 @@ public class Main {
         director.constructSportsCar(builder);
 
         // The final product is often retrieved from a builder object, since
-        // Director is not aware and not dependent on concrete builders and
+        // Director is not aware and not dependent on concrete example.builders and
         // products.
         Car car = builder.getResult();
         System.out.println("Car built:\n" + car.getCarType());
