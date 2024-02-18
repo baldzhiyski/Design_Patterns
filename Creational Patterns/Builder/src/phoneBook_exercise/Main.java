@@ -11,7 +11,38 @@ public class Main {
     private static final String END_COMMAND = "END";
 
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String input = scanner.nextLine();
 
+        Phonebook phonebook = new Phonebook();
+
+        while (!END_COMMAND.equals(input)) {
+
+            switch (input) {
+                case CREATE_COMMAND:
+                    List<String> contactInfo = readContactInfo(scanner);
+
+                    Contact contact = new Contact.Builder(contactInfo.get(0), contactInfo.get(1)).withCompany(contactInfo.get(2))
+                            .withTitle(contactInfo.get(3))
+                            .build();
+                    phonebook.addContact(contact);
+                    break;
+                case CONTACT_INFO_COMMAND:
+                    contact = phonebook.getContactByName(scanner.nextLine());
+                    System.out.println(contact.toString());
+                    break;
+                case DELETE_CONTACT_COMMAND:
+                    phonebook.getContactByName(scanner.nextLine());
+                    break;
+                case PHONEBOOK_COMMAND:
+                    phonebook.getAllContacts()
+                            .forEach(System.out::println);
+                    break;
+            }
+
+            input = scanner.nextLine();
+
+        }
     }
 
     private static List<String> readContactInfo(Scanner input) {
