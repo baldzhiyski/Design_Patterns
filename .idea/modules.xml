@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/Design Patterns.iml" filepath="$PROJECT_DIR$/Design Patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/Structural Patterns/Facade/Facade.iml" filepath="$PROJECT_DIR$/Structural Patterns/Facade/Facade.iml" />
       <module fileurl="file://$PROJECT_DIR$/Creational Patterns/Factory Method/Factory Method.iml" filepath="$PROJECT_DIR$/Creational Patterns/Factory Method/Factory Method.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Behavioural Patterns/Observer/Observer.iml" filepath="$PROJECT_DIR$/Behavioural Patterns/Observer/Observer.iml" />
       <module fileurl="file://$PROJECT_DIR$/Creational Patterns/Prototype/Prototype.iml" filepath="$PROJECT_DIR$/Creational Patterns/Prototype/Prototype.iml" />
       <module fileurl="file://$PROJECT_DIR$/Singelton/Singelton.iml" filepath="$PROJECT_DIR$/Singelton/Singelton.iml" />
       <module fileurl="file://$PROJECT_DIR$/Creational Patterns/Singleton/Singleton.iml" filepath="$PROJECT_DIR$/Creational Patterns/Singleton/Singleton.iml" />
