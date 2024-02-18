@@ -1,4 +1,4 @@
-package third_example.commands;
+package word_second_variant.commands;
 
 import java.util.Stack;
 

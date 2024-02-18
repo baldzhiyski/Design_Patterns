@@ -1,6 +1,6 @@
-package third_example.commands;
+package word_second_variant.commands;
 
-import third_example.editor.Editor;
+import word_second_variant.editor.Editor;
 
 public abstract class Command {
     public Editor editor;

@@ -1,6 +1,7 @@
-package third_example.editor;
+package word_second_variant.editor;
 
 import third_example.commands.*;
+import word_second_variant.commands.*;
 
 import javax.swing.*;
 import java.awt.*;
@@ -9,6 +10,7 @@ import java.awt.event.ActionListener;
 
 public class Editor {
     public JTextArea textField;
+
     public String clipboard;
     private CommandHistory history = new CommandHistory();
 

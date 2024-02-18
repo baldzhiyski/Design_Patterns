@@ -1,4 +1,4 @@
-package second_example.actions;
+package mini_word.actions;
 
 public class CutTransform implements  TextTransform{
     private StringBuilder lastCut = new StringBuilder();

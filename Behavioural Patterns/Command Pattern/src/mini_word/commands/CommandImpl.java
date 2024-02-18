@@ -1,9 +1,9 @@
-package second_example.commands;
+package mini_word.commands;
 
-import second_example.actions.CutTransform;
-import second_example.actions.PasteTransform;
-import second_example.actions.TextTransform;
-import second_example.actions.ToUpperTransform;
+import mini_word.actions.ToUpperTransform;
+import mini_word.actions.CutTransform;
+import mini_word.actions.PasteTransform;
+import mini_word.actions.TextTransform;
 
 import java.util.ArrayList;
 import java.util.HashMap;

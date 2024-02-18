@@ -1,7 +1,7 @@
-package second_example.actions;
+package mini_word.actions;
 
-import second_example.commands.CommandImpl;
-import second_example.commands.CommandInterface;
+import mini_word.commands.CommandImpl;
+import mini_word.commands.CommandInterface;
 
 public class Initialization {
     public static CommandInterface buildCommandInterface(StringBuilder text) {

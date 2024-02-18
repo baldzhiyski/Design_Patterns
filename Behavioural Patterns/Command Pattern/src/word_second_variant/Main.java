@@ -1,6 +1,6 @@
-package third_example;
+package word_second_variant;
 
-import third_example.editor.Editor;
+import word_second_variant.editor.Editor;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package second_example.commands;
+package mini_word.commands;
 
-import second_example.actions.TextTransform;
+import mini_word.actions.TextTransform;
 
 public class Command {
     private String text;

@@ -1,7 +1,7 @@
-package second_example;
+package mini_word;
 
-import second_example.actions.Initialization;
-import second_example.commands.CommandInterface;
+import mini_word.actions.Initialization;
+import mini_word.commands.CommandInterface;
 
 import java.util.Scanner;
 

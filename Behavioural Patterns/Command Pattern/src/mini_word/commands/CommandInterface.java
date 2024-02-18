@@ -1,4 +1,4 @@
-package second_example.commands;
+package mini_word.commands;
 
 public interface CommandInterface {
     void init();
