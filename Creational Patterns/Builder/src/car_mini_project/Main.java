@@ -1,10 +1,10 @@
-package example;
+package car_mini_project;
 
-import example.builders.CarBuilder;
-import example.builders.ManualBuilder;
-import example.cars.Car;
-import example.cars.ManualCar;
-import example.director.Director;
+import car_mini_project.builders.ManualBuilder;
+import car_mini_project.builders.CarBuilder;
+import car_mini_project.cars.Car;
+import car_mini_project.cars.ManualCar;
+import car_mini_project.director.Director;
 
 public class Main {
     public static void main(String[] args) {

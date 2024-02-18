@@ -1,6 +1,5 @@
 package word_second_variant.editor;
 
-import third_example.commands.*;
 import word_second_variant.commands.*;
 
 import javax.swing.*;

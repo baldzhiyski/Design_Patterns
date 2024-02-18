@@ -1,11 +1,11 @@
-package example.builders;
+package car_mini_project.builders;
 
-import example.cars.CarType;
-import example.cars.ManualCar;
-import example.components.Engine;
-import example.components.GPSNavigator;
-import example.components.Transmission;
-import example.components.TripComputer;
+import car_mini_project.cars.CarType;
+import car_mini_project.cars.ManualCar;
+import car_mini_project.components.Engine;
+import car_mini_project.components.GPSNavigator;
+import car_mini_project.components.Transmission;
+import car_mini_project.components.TripComputer;
 
 public class ManualBuilder implements  Builder{
     private CarType type;

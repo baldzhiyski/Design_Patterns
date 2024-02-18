@@ -1,11 +1,11 @@
-package example.director;
+package car_mini_project.director;
 
-import example.builders.Builder;
-import example.cars.CarType;
-import example.components.Engine;
-import example.components.GPSNavigator;
-import example.components.Transmission;
-import example.components.TripComputer;
+import car_mini_project.components.GPSNavigator;
+import car_mini_project.components.Transmission;
+import car_mini_project.components.TripComputer;
+import car_mini_project.builders.Builder;
+import car_mini_project.cars.CarType;
+import car_mini_project.components.Engine;
 
 public class Director {
     public void constructSportsCar(Builder builder) {

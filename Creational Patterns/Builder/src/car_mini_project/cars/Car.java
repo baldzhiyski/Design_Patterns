@@ -1,9 +1,9 @@
-package example.cars;
+package car_mini_project.cars;
 
-import example.components.Engine;
-import example.components.GPSNavigator;
-import example.components.Transmission;
-import example.components.TripComputer;
+import car_mini_project.components.GPSNavigator;
+import car_mini_project.components.Transmission;
+import car_mini_project.components.TripComputer;
+import car_mini_project.components.Engine;
 
 public class Car {
     private final CarType carType;

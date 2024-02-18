@@ -1,4 +1,4 @@
-package example.components;
+package car_mini_project.components;
 
 public class Engine {
     private final double volume;

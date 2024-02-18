@@ -1,6 +1,6 @@
-package example.components;
+package car_mini_project.components;
 
-import example.cars.Car;
+import car_mini_project.cars.Car;
 
 public class TripComputer {
     private Car car;
