@@ -1,4 +1,4 @@
-package television_mini_app.entities;
+package television_mini_app.resievers;
 
 public class Tv  implements  Receiver{
     @Override

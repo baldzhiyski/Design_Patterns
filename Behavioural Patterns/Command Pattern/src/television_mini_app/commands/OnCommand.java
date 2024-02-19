@@ -1,6 +1,6 @@
 package television_mini_app.commands;
 
-import television_mini_app.entities.Receiver;
+import television_mini_app.resievers.Receiver;
 
 public class OnCommand implements Command{
     private Receiver receiver;

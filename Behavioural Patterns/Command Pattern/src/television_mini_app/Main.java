@@ -2,9 +2,9 @@ package television_mini_app;
 
 import television_mini_app.commands.Command;
 import television_mini_app.commands.OnCommand;
-import television_mini_app.entities.Dvd;
-import television_mini_app.entities.Receiver;
-import television_mini_app.entities.Tv;
+import television_mini_app.resievers.Dvd;
+import television_mini_app.resievers.Receiver;
+import television_mini_app.resievers.Tv;
 import television_mini_app.invoker.Invoker;
 
 public class Main {
