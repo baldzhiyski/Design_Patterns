@@ -1,4 +1,4 @@
-package first_example;
+package shapes_example;
 
 public class Main {
     public static void main(String[] args) {
