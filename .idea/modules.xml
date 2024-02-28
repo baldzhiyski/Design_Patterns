@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Creational Patterns/Abstract Factory/Abstract Factory.iml" filepath="$PROJECT_DIR$/Creational Patterns/Abstract Factory/Abstract Factory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Structural Patterns/Adapter/Adapter.iml" filepath="$PROJECT_DIR$/Structural Patterns/Adapter/Adapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/Behavioural Patterns/Behavioural Patterns.iml" filepath="$PROJECT_DIR$/Behavioural Patterns/Behavioural Patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/Creational Patterns/Builder/Builder.iml" filepath="$PROJECT_DIR$/Creational Patterns/Builder/Builder.iml" />
       <module fileurl="file://$PROJECT_DIR$/Behavioural Patterns/Command Pattern/Command Pattern.iml" filepath="$PROJECT_DIR$/Behavioural Patterns/Command Pattern/Command Pattern.iml" />
